@@ -1,0 +1,135 @@
+body{
+    font-size: 25px;
+    font-family: 'Roboto', 'Arial';
+    margin: 0;
+    padding: 0;
+}
+/*__________________________________*/
+header{
+    display: block;
+    margin-top: 5%;
+}
+.espaco{
+    margin-left: 45%;
+}
+.um{
+    margin-left: 5%;
+}
+button{
+    font-size: 25px;
+    cursor: pointer;
+    background: #0000;
+    border: 0;
+    padding: 10px 20px;
+}
+button:hover{
+    border-radius: 10px;
+    background: #D6000D;
+    color: #fff;
+}
+a{
+    color: #D6000D;
+    text-decoration: none;
+}
+/*__________________________________*/
+.img img{
+    width: 350px;
+    margin-left: 10%;
+}
+.img{
+    display: inline-block;
+}
+.texto{
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 0;
+    text-align: left;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20%;
+    margin-top: 20%;
+}
+h1{
+    color: #D6000D;
+}
+/*__________________________________*/
+.lista{
+    display: inline-block;
+    text-align: left;
+}
+article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20%;
+    margin-top: 20%;
+}
+input{
+    font-size: 25px;
+    width: 200px;
+    border-radius: 10px;
+    background: rgb(196, 196, 196);
+    color: rgb(44, 44, 44);
+    border: solid 0px;
+    padding: 5px;
+}
+/*__________________________________*/
+.primeiro{
+    width: 40%;
+    height: 155px;
+    border-radius: 10px;
+    background: rgb(196, 196, 196);
+    border: solid 0px;
+    color: rgb(44, 44, 44);
+    padding: 10px;
+}
+.texticulo{
+    font-size: 15px;
+}
+.nome{
+    font-size: 20px;
+    font-weight: bold;
+}
+.instituicao{
+    font-size: 20px;
+    font-weight: bold;
+}
+.segundo{
+    width: 40%;
+    height: 155px;
+    border-radius: 10px;
+    background: rgb(196, 196, 196);
+    border: solid 0px;
+    color: rgb(44, 44, 44);
+    padding: 10px;
+    margin: 10px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20%;
+    margin-top: 20%;
+}
+/*__________________________________*/
+footer{
+    background: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer div{
+    margin: 10px;
+}
+.textinho{
+    font-size: 15px;
+}
+.titulo{
+    font-size: 20px;
+}
