@@ -1,19 +1,18 @@
 body{
-    font-size: 25px;
+    font-size: x-large;
     font-family: 'Roboto', 'Arial';
     margin: 0;
     padding: 0;
 }
 /*__________________________________*/
 header{
-    display: block;
     margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .espaco{
-    margin-left: 45%;
-}
-.um{
-    margin-left: 5%;
+    margin-left: 20%;
 }
 button{
     font-size: 25px;
@@ -26,6 +25,7 @@ button:hover{
     border-radius: 10px;
     background: #D6000D;
     color: #fff;
+    transition: 500ms;
 }
 a{
     color: #D6000D;
@@ -132,4 +132,10 @@ footer div{
 }
 .titulo{
     font-size: 20px;
+}
+
+.outro{
+    border-radius: 10px;
+    background: #D6000D;
+    color: #fff;
 }
